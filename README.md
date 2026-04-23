@@ -673,6 +673,8 @@ This model allows us to:
 
 If you're unsure which license you need, [contact us](mailto:indrasish00@gmail.com) for guidance. 
 
+[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template?template=https://github.com/jaganathpanda/aem-mcp-server)
+
 
 
 
