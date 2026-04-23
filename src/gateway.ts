@@ -550,7 +550,7 @@ app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(openapiSpec));
 app.get('/openapi.json', (req: express.Request, res: express.Response) => { res.json(openapiSpec); });
 
 export async function startGateway() {
-  app.listen(GATEWAY_PORT, () => {
+  app.listen(GATEWAY_PORT, '0.0.0.0', () => {
     // eslint-disable-next-line no-console
     console.log('\n' + '='.repeat(80));
     console.log('🚀 AEM MCP Server - Gateway Started');
