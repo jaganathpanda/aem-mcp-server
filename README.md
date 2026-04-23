@@ -341,7 +341,7 @@ AEM_QUERY_TIMEOUT=30000
 AEM_MAX_DEPTH=5
 
 # Optional: AI Integration (if needed)
-# OPENAI_API_KEY=your-openai-key
+OPENAI_API_KEY=your-openai-key
 # TELEGRAM_BOT_TOKEN=your-telegram-bot-token
 ```
 
